@@ -155,7 +155,7 @@ int main(int argc, char *argv[]) {
 
 	if(ARG.size() == 0)
 	{
-		std::cerr << "Please provide two arguments: a BAM and a reference in FASTA format." << "\n" << std::flush;
+		std::cerr << "Error:\n\nPlease provide two arguments: a SAM file and a reference in FASTA format." << "\n\n" << std::flush;
 		throw std::runtime_error("Missing arguments");
 	}
 
